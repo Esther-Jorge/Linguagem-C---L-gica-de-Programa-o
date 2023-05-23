@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h> 
 
 int main()
 {
@@ -15,10 +15,10 @@ fflush(stdin); // limpa cache(buffer)
 printf("Digite sua senha:");
 gets(senha);
 
-if(strcmp(login, nomeSalvo) == 0 strcmp(senha, senhaSalva) == 0){
+if (strcmp(login, nomeSalvo) == 0 && strcmp(senha, senhaSalva) == 0){
     printf("Acesso liberado.");
 }else{
-    printf("Acesso negado.")
+    printf("Acesso negado.");
 }
-    return 0;
+return 0;
 }
