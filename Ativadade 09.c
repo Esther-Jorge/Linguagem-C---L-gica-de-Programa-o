@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-//Crie um algoritmo que receba o três notas de 2 semestres
+//Crie um algoritmo que receba o trÃªs notas de 2 semestres
 int main(){
 
 setlocale(LC_ALL,""); // para aceitar acentos
@@ -15,12 +15,12 @@ float somaNotas;
 
 for (i = 0; i < 3; i++)
 {
-    printf("Digite o nome da %dª disciplina: ",i+1);
+    printf("Digite o nome da %dÂª disciplina: ",i+1);
     gets(disciplinas[i]);
 
     for (j = 0; j < 2; j++)
     {
-        printf("Digite o valor da %dªnota: ", j+1);
+        printf("Digite o valor da %dÂªnota: ", j+1);
         scanf("%f", &notas[i][j]);
 
         somaNotas += notas[i][j];
@@ -34,7 +34,7 @@ for (i = 0; i < 3; i++)
 
     for (i = 0; i < 3; i++)
     {
-        printf("%dº nome: %s \n", i+1, disciplina[i];)
+        printf("%dÂº nome: %s \n", i+1, disciplina[i]);
     }
     
 
